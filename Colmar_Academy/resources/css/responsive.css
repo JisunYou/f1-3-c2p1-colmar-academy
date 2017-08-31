@@ -1,0 +1,98 @@
+@media only screen and (min-width: 571px) {
+	.header-mobile {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 570px) {
+	.header {
+		display: none;
+	}
+	.banner {
+		flex-direction: column;
+	}
+	.banner .image {
+		width: 100%;
+		padding: 0;
+	}
+	.banner .copy {
+		width: 100%;
+		margin: 0;
+		padding: 2rem 1rem;
+	}
+	.banner .copy p {
+		margin-top: 2rem;
+		margin-bottom: 1.5rem;
+		line-height: 1.5rem;
+	}
+	.banner .copy .button {
+		width: 100%;
+	}
+	.information {
+		padding: 1rem;
+	}
+	.information .main {
+		display: none;
+	}
+	.information .lists {
+		width: 100%;
+	}
+	.information .lists .list {
+		flex-direction: column;
+		padding: 0;
+	}
+	.information .lists .list .image {
+		width: 100%;
+	}
+	.information .lists .list .info {
+		width: 100%;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+	}
+	.courses {
+		background-color: whitesmoke;
+		padding: 2rem 1rem;
+		border-top: 1px solid #d3d3d3;
+	}
+	.courses h2 {
+		margin-bottom: 1rem;
+	}
+	.courses .grid {
+		flex-direction: column;
+	}
+	.courses .grid .course {
+		width: 100%;
+		margin-bottom: 0.5rem;
+		padding: 1rem;
+		background-color: #dcdcdc;
+	}
+	.courses .grid .course:nth-child(4), 
+	.courses .grid .course:nth-child(5), 
+	.courses .grid .course:nth-child(6) {
+		margin-top: 0rem;
+	}
+	.courses .grid .course img {
+		display: none;
+	}
+	.courses .grid .course p {
+		display: none;
+	}
+	.courses .grid .course h3 {
+		margin: 0;
+	}
+	.thesis {
+		padding: 2rem 0;
+	}
+	.thesis .main {
+		width: 100%;
+	}
+	.thesis .main h3, .thesis .main p, .thesis .lists {
+		display: none;
+	}
+	.footer {
+		padding: 1rem;
+	}
+	.footer .nav {
+		display: none;
+	}
+}
